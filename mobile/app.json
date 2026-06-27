@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "DMRC Assistant",
+    "slug": "dmrc-assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0B3B70"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "in.dmrc.assistant"
+    },
+    "android": {
+      "package": "in.dmrc.assistant",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B3B70"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
