@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: dmrc-saathi-backend
+    env: node
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: MONGO_URI
+        sync: false # Render will prompt you to enter your MongoDB Atlas URI during setup
+      - key: PORT
+        value: 4000
+      - key: NODE_ENV
+        value: production
+      - key: CORS_ORIGINS
+        value: "*"
